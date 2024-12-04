@@ -87,38 +87,38 @@ Este conjunto de dados é distribuído "TAL COMO ESTÁ", e nenhuma responsabilid
 
 O conjunto de dados pode ser usado para:
 
-Esse tipo de conjunto de dados é usado para entender tendências nas mídias sociais, analisar o comportamento dos influenciadores e ajudar marcas a identificar os perfis mais adequados para campanhas de marketing.
+Esse tipo de conjunto de dados é usado para entender comportamentos humanos através de sensoriamento feito por dispositivos vestiveis. Human Activity Recognition (HAR)
 
 
 Sobre este arquivo:
 
-Neste arquivo, basicamente há 10 atributos. Ele foi ordenado com base na classificação que foi decidida com base em "seguidores".
+O arquivo utilizado neste trabalho foi o 'train/X_train.txt'
+Neste arquivo, existem 561 colunas e 7352 linhas cada linha é um vetor calculado das 17 métricas feitas apartir das 17 leituras feitas pelos sensores
 
-| nome da coluna | Descrição |
+| vetor | features |
 | ------------ | ------------ |
-| rank: | Classificação do Influenciador com base no número de seguidores que ele tem |
-| channel_info | Nome de usuário do Instagrammer |
-| influence score | Pontuação de influência dos usuários. É calculado com base em menções, importância e popularidade |
-| posts |  Número de posts que eles fizeram até agora |
-| followers | Número de seguidores do usuário|
-| avg_likes | Média de curtidas em posts do Instagrammer (total de curtidas/total de posts) |
-| 60_day_eng_rate | Taxa de engajamento dos últimos 60 dias do Instagrammer como facção de engajamentos que eles fizeram até agora |
-| new_post_avg_like | Média de curtidas que eles têm em novos posts |
-| total de curtidas | Total de curtidas que o usuário obteve em seus posts. (em bilhões) |
-| country | País ou região de origem do usuário. |
+|  0  | 1 | 2 | 3 | ... | 557 | 558 | 559 | 560 |
+|  1  |   |   |   | ... |   |   |   |   |
+|  2  |   |   |   | ...  |   |   |   |   |
+|  3  |   |   |   |  ... |   |   |   |   |
+| ... |   |   |   |  ... |   |   |   |   |
+| 7349 |   |   |   | ...  |   |   |   |   |
+| 7350 |   |   |   | ... |   |   |   |   |
+| 7351 |   |   |   |  ... |   |   |   |   |
+| 7352 |   |   |   |  ... |   |   |   |   |
 
 
 # Tecnologias Utilizadas: 🚀
 Os códigos no notebook foram escritos na linguagem Python, a primeira célula de código encontrará os imports com todas bibliotecas e modulos necessários para reproduzir o projeto.
 versão do Python: + 3.12 https://www.python.org/downloads/
 
-Os códigos foram implementados através de um notebook na plataforma google coolab: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1DjoKKDo27wydZiRLmYIWOLCZQHBtJAgy?usp=sharing)
+Os códigos foram implementados através de um notebook na plataforma google coolab: - [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1DjoKKDo27wydZiRLmYIWOLCZQHBtJAgy?usp=sharing)
 
 ## Bibliotecas necessárias
 ======
 - Pandas
 - Numpy
-- sci-kitlearning
+- scikit-learn
 - matplotlib
 - seaborn
 - OS
