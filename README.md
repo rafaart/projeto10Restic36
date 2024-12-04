@@ -22,7 +22,77 @@ O notebook foi originalmente feito no Google Coolab e você pode iniciar as edi�
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1DjoKKDo27wydZiRLmYIWOLCZQHBtJAgy?usp=sharing)
 
 # Sobre a base de dados🎲
-Este conjunto de dados reúne informações sobre os principais influenciadores do Instagram, abrangendo uma variedade de 200 tipos diferentes de influenciadores. Ele inclui perfis com grande número de seguidores, alto engajamento e amplo alcance em suas postagens.
+
+Os experimentos foram realizados com um grupo de 30 voluntários com idades entre 19 e 48 anos. Cada pessoa realizou seis atividades (CAMINHADA, SUBINDO ESCADAS, DESCENDO ESCADAS, SENTADO, EM PÉ, DEITADO) usando um smartphone (Samsung Galaxy S II) preso à cintura. Utilizando o acelerômetro e o giroscópio integrados, foram capturadas aceleração linear tri-axial e velocidade angular tri-axial a uma taxa constante de 50 Hz. Os experimentos foram gravados em vídeo para etiquetar manualmente os dados. O conjunto de dados foi aleatoriamente dividido em dois grupos, onde 70% dos voluntários foram selecionados para gerar os dados de treinamento e 30% para os dados de teste.
+
+Os sinais dos sensores (acelerômetro e giroscópio) foram pré-processados aplicando filtros de ruído e depois amostrados em janelas deslizantes de largura fixa de 2,56 segundos com sobreposição de 50% (128 leituras/janela). O sinal de aceleração do sensor, que contém componentes de gravidade e movimento corporal, foi separado usando um filtro passa-baixa de Butterworth em aceleração corporal e gravidade. A força gravitacional foi considerada composta apenas por componentes de baixa frequência, por isso foi usado um filtro com frequência de corte de 0,3 Hz. De cada janela, foi obtido um vetor de características calculando variáveis nos domínios do tempo e da frequência. Consulte 'features_info.txt' para mais detalhes.
+
+## Para cada registro são fornecidos:
+======================================
+
+- Aceleração tri-axial do acelerômetro (aceleração total) e a aceleração corporal estimada.
+- Velocidade angular tri-axial do giroscópio.
+- Um vetor de 561 características com variáveis dos domínios do tempo e da frequência.
+- O rótulo da atividade.
+- Um identificador do sujeito que realizou o experimento.
+
+# O conjunto de dados inclui os seguintes arquivos:
+=========================================
+
+- 'README.txt'
+
+- 'features_info.txt': Mostra informações sobre as variáveis utilizadas no vetor de características.
+
+- 'features.txt': Lista todas as características.
+
+- 'activity_labels.txt': Relaciona os rótulos das classes com seus respectivos nomes de atividade.
+
+- 'train/X_train.txt': Conjunto de treinamento.
+
+- 'train/y_train.txt': Rótulos de treinamento.
+
+- 'test/X_test.txt': Conjunto de teste.
+
+- 'test/y_test.txt': Rótulos de teste.
+
+Os seguintes arquivos estão disponíveis para os dados de treinamento e teste. Suas descrições são equivalentes.
+
+- 'train/subject_train.txt': Cada linha identifica o sujeito que realizou a atividade para cada amostra de janela. O intervalo vai de 1 a 30.
+
+- 'train/Inertial Signals/total_acc_x_train.txt': O sinal de aceleração do eixo X do acelerômetro do smartphone em unidades padrão de gravidade 'g'. Cada linha mostra um vetor de 128 elementos. A mesma descrição se aplica aos arquivos 'total_acc_y_train.txt' e 'total_acc_z_train.txt' para os eixos Y e Z.
+
+- 'train/Inertial Signals/body_acc_x_train.txt': O sinal de aceleração corporal obtido subtraindo a gravidade da aceleração total.
+
+- 'train/Inertial Signals/body_gyro_x_train.txt': O vetor de velocidade angular medido pelo giroscópio para cada amostra de janela. As unidades são radianos/segundo.
+
+# Notas:
+======
+- As características estão normalizadas e limitadas entre [-1,1].
+- Cada vetor de características é uma linha no arquivo de texto.
+- As unidades utilizadas para as acelerações (total e corporal) são 'g' (gravidade terrestre -> 9,80665 m/s²).
+- As unidades do giroscópio são rad/s.
+- Um vídeo do experimento, incluindo um exemplo das seis atividades registradas com um dos participantes, pode ser visto no seguinte link: [YouTube](http://www.youtube.com/watch?v=XOEN9W05_4A).
+
+Para mais informações sobre este conjunto de dados, entre em contato: activityrecognition '@' smartlab.ws.
+
+# Licença:
+========
+O uso deste conjunto de dados em publicações deve ser reconhecido referenciando a seguinte publicação [1]:
+
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra e Jorge L. Reyes-Ortiz. *A Public Domain Dataset for Human Activity Recognition Using Smartphones*. 21º Simpósio Europeu em Redes Neurais Artificiais, Inteligência Computacional e Aprendizado de Máquina, ESANN 2013. Bruges, Bélgica, 24-26 de abril de 2013.
+
+Este conjunto de dados é distribuído "TAL COMO ESTÁ", e nenhuma responsabilidade, implícita ou explícita, pode ser atribuída aos autores ou suas instituições pelo seu uso ou mau uso. Qualquer uso comercial é proibido.
+
+# Outras Publicações Relacionadas:
+===========================
+[2] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra, Jorge L. Reyes-Ortiz. *Energy Efficient Smartphone-Based Activity Recognition using Fixed-Point Arithmetic*. *Journal of Universal Computer Science*. Edição Especial em Ambientes Assistidos: Cuidados em Casa. Volume 19, Edição 9. Maio de 2013.
+
+[3] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra e Jorge L. Reyes-Ortiz. *Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine*. 4º Workshop Internacional de Ambientes Assistidos, IWAAL 2012, Vitoria-Gasteiz, Espanha, 3-5 de dezembro de 2012. *Lecture Notes in Computer Science* 2012, pp 216-223.
+
+[4] Jorge Luis Reyes-Ortiz, Alessandro Ghio, Xavier Parra-Llanas, Davide Anguita, Joan Cabestany, Andreu Català. *Human Activity and Motion Disorder Recognition: Towards Smarter Interactive Cognitive Environments*. 21º Simpósio Europeu em Redes Neurais Artificiais, Inteligência Computacional e Aprendizado de Máquina, ESANN 2013. Bruges, Bélgica, 24-26 de abril de 2013.
+
+==================================================================================================  
+Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita e Xavier Parra. Novembro de 2013.
 
 
 # Uso da base: 🛠️
