@@ -95,7 +95,7 @@ Sobre este arquivo:
 O arquivo utilizado neste trabalho foi o 'train/X_train.txt'
 Neste arquivo, existem 561 colunas e 7352 linhas cada linha é um vetor calculado das 17 métricas feitas apartir das 17 leituras feitas pelos sensores
 
-| vetor | features |
+| vetor | features |   |   |   |
 | ------- | ------ | ------ | ------ | ------- |
 |  0  | 1 | 2 | 3 | ... | 557 | 558 | 559 | 560 |
 |  1  |   |   |   | ... |   |   |   |   |
