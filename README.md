@@ -10,7 +10,6 @@ link para o dataset: https://archive.ics.uci.edu/dataset/240/human+activity+reco
 
 link para o artigo: https://www.esann.org/sites/default/files/proceedings/legacy/es2013-84.pdf
 
-O link desta base e mais detalhes se encontra em: https://www.kaggle.com/datasets/surajjha101/top-instagram-influencers-data-cleaned
 
 # Instalação▶️
 Você pode fazer um fork do repositório e iniciar edições no arquivo por conta própria, abaixo o link para o notebook que pode ser rodado em Jupiter notebook ou até mesmo em uma IDE Python de sua escolha
@@ -36,7 +35,7 @@ Os sinais dos sensores (acelerômetro e giroscópio) foram pré-processados apli
 - O rótulo da atividade.
 - Um identificador do sujeito que realizou o experimento.
 
-# O conjunto de dados inclui os seguintes arquivos:
+## O conjunto de dados inclui os seguintes arquivos:
 =========================================
 
 - 'README.txt'
@@ -65,7 +64,7 @@ Os seguintes arquivos estão disponíveis para os dados de treinamento e teste. 
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': O vetor de velocidade angular medido pelo giroscópio para cada amostra de janela. As unidades são radianos/segundo.
 
-# Notas:
+## Notas:
 ======
 - As características estão normalizadas e limitadas entre [-1,1].
 - Cada vetor de características é uma linha no arquivo de texto.
@@ -75,24 +74,13 @@ Os seguintes arquivos estão disponíveis para os dados de treinamento e teste. 
 
 Para mais informações sobre este conjunto de dados, entre em contato: activityrecognition '@' smartlab.ws.
 
-# Licença:
+## Licença:
 ========
 O uso deste conjunto de dados em publicações deve ser reconhecido referenciando a seguinte publicação [1]:
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra e Jorge L. Reyes-Ortiz. *A Public Domain Dataset for Human Activity Recognition Using Smartphones*. 21º Simpósio Europeu em Redes Neurais Artificiais, Inteligência Computacional e Aprendizado de Máquina, ESANN 2013. Bruges, Bélgica, 24-26 de abril de 2013.
 
 Este conjunto de dados é distribuído "TAL COMO ESTÁ", e nenhuma responsabilidade, implícita ou explícita, pode ser atribuída aos autores ou suas instituições pelo seu uso ou mau uso. Qualquer uso comercial é proibido.
-
-# Outras Publicações Relacionadas:
-===========================
-[2] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra, Jorge L. Reyes-Ortiz. *Energy Efficient Smartphone-Based Activity Recognition using Fixed-Point Arithmetic*. *Journal of Universal Computer Science*. Edição Especial em Ambientes Assistidos: Cuidados em Casa. Volume 19, Edição 9. Maio de 2013.
-
-[3] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra e Jorge L. Reyes-Ortiz. *Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine*. 4º Workshop Internacional de Ambientes Assistidos, IWAAL 2012, Vitoria-Gasteiz, Espanha, 3-5 de dezembro de 2012. *Lecture Notes in Computer Science* 2012, pp 216-223.
-
-[4] Jorge Luis Reyes-Ortiz, Alessandro Ghio, Xavier Parra-Llanas, Davide Anguita, Joan Cabestany, Andreu Català. *Human Activity and Motion Disorder Recognition: Towards Smarter Interactive Cognitive Environments*. 21º Simpósio Europeu em Redes Neurais Artificiais, Inteligência Computacional e Aprendizado de Máquina, ESANN 2013. Bruges, Bélgica, 24-26 de abril de 2013.
-
-==================================================================================================  
-Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita e Xavier Parra. Novembro de 2013.
 
 
 # Uso da base: 🛠️
@@ -129,3 +117,14 @@ Rafael Santos Souza :octocat: : https://github.com/rafaart
 & 
 
 Yuri Oliveira dos Santos :octocat: : https://github.com/YuriGith
+
+# Outras Publicações Relacionadas:
+===========================
+[2] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra, Jorge L. Reyes-Ortiz. *Energy Efficient Smartphone-Based Activity Recognition using Fixed-Point Arithmetic*. *Journal of Universal Computer Science*. Edição Especial em Ambientes Assistidos: Cuidados em Casa. Volume 19, Edição 9. Maio de 2013.
+
+[3] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra e Jorge L. Reyes-Ortiz. *Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine*. 4º Workshop Internacional de Ambientes Assistidos, IWAAL 2012, Vitoria-Gasteiz, Espanha, 3-5 de dezembro de 2012. *Lecture Notes in Computer Science* 2012, pp 216-223.
+
+[4] Jorge Luis Reyes-Ortiz, Alessandro Ghio, Xavier Parra-Llanas, Davide Anguita, Joan Cabestany, Andreu Català. *Human Activity and Motion Disorder Recognition: Towards Smarter Interactive Cognitive Environments*. 21º Simpósio Europeu em Redes Neurais Artificiais, Inteligência Computacional e Aprendizado de Máquina, ESANN 2013. Bruges, Bélgica, 24-26 de abril de 2013.
+
+==================================================================================================  
+Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita e Xavier Parra. Novembro de 2013.
