@@ -15,11 +15,11 @@ O link desta base e mais detalhes se encontra em: https://www.kaggle.com/dataset
 # Instalação▶️
 Você pode fazer um fork do repositório e iniciar edições no arquivo por conta própria, abaixo o link para o notebook que pode ser rodado em Jupiter notebook ou até mesmo em uma IDE Python de sua escolha
 
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rafaart/projeto9restic36/edit/develop/AVALIA%C3%87%C3%83O_9_RegLinear.ipynb)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rafaart/projeto10Restic36/blob/develop/K_MEANS_UNID_10.ipynb)
 
 O notebook foi originalmente feito no Google Coolab e você pode iniciar as edições fazendo uma cópia do arquivo original no link abaixo
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rafaart/projeto9restic36/blob/develop/AVALIA%C3%87%C3%83O_9_RegLinear.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1DjoKKDo27wydZiRLmYIWOLCZQHBtJAgy?usp=sharing)
 
 # Sobre a base de dados🎲
 Este conjunto de dados reúne informações sobre os principais influenciadores do Instagram, abrangendo uma variedade de 200 tipos diferentes de influenciadores. Ele inclui perfis com grande número de seguidores, alto engajamento e amplo alcance em suas postagens.
