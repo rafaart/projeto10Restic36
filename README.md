@@ -5,7 +5,9 @@
 # Objetivo do nosso projeto:🎯
 
 Este notebook contempla a criação de um modelo preditivo não supervisionado usando o algoritmo K-means para segmentar grupos e classificalos dentro de um data set de dominio público.
+
 link para o dataset: https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones
+
 link para o artigo: https://www.esann.org/sites/default/files/proceedings/legacy/es2013-84.pdf
 
 O link desta base e mais detalhes se encontra em: https://www.kaggle.com/datasets/surajjha101/top-instagram-influencers-data-cleaned
