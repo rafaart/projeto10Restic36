@@ -110,6 +110,19 @@ Neste arquivo, basicamente há 10 atributos. Ele foi ordenado com base na classi
 
 # Tecnologias Utilizadas: 🚀
 Os códigos no notebook foram escritos na linguagem Python, a primeira célula de código encontrará os imports com todas bibliotecas e modulos necessários para reproduzir o projeto.
+versão do Python: + 3.12 https://www.python.org/downloads/
+
+Os códigos foram implementados através de um notebook na plataforma google coolab: [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1DjoKKDo27wydZiRLmYIWOLCZQHBtJAgy?usp=sharing)
+
+## Bibliotecas necessárias
+======
+- Pandas
+- Numpy
+- sci-kitlearning
+- matplotlib
+- seaborn
+- OS
+- drive
 
 # Autores: 😎😎
 Rafael Santos Souza :octocat: : https://github.com/rafaart
